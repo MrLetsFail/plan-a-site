@@ -1,6 +1,6 @@
 import re, html, pathlib
 D = pathlib.Path.home()/"Library/CloudStorage/GoogleDrive-hackerfrik1@gmail.com/My Drive/Fokus App"
-NAME, ADDR, MAIL, STAND = "[Vor- und Nachname]", "[Straße, Hausnummer, PLZ Ort]", "[E-Mail-Adresse]", "26. September 2026"
+NAME, ADDR, MAIL, STAND = "Lars Kaster", "Bremer Str. 68, 10551 Berlin", "lars.kaster@gmx.de", "26. September 2026"
 
 def inline(s):
     s = html.escape(s)
